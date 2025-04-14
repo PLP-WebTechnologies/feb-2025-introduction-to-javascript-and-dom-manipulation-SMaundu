@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOM Manipulation Example</title>
+  <style>
+    .highlight {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Welcome to My Page</h1>
+  </header>
+
+  <main>
+    <p id="intro">This is a sample paragraph that will change dynamically.</p>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="toggleStyle()">Toggle Style</button>
+    <button onclick="addItem()">Add Item</button>
+    <button onclick="removeItem()">Remove Item</button>
+
+    <ul id="item-list">
+      <li>First item</li>
+      <li>Second item</li>
+    </ul>
+  </main>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
